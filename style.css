@@ -65,6 +65,9 @@ a {
     color: #1F2937;
     font-weight: 900;
     font-size: 36px;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
 }
 .quotesection{
     background-color: #E5E7EB;
