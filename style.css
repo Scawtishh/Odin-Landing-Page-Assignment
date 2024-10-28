@@ -27,12 +27,21 @@ body {
     background-color: #1F2937;
 }
 .new-start{
-    
-}
-.right-links{
+    background-color: #1F2937;
     display: flex;
-    gap: 10px;
-    font-size: 14px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.wrapper-start{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-links
+.right-links{
+    width: auto;
 }
 .hero{
     background-color: #1F2937;
