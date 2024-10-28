@@ -1,10 +1,12 @@
 body {
     font-family: "Roboto", sans-serif;
     font-size: 12px;
+    margin: 0;
+    overflow: hidden;
     display: flex;
-    height: 100vh;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header{
@@ -15,7 +17,14 @@ body {
     justify-content: space-between;
     flex-direction: row;
 }
-
+.hero{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+}
 .hero-section{
     width: 450px;
     border: 1px solid black;
@@ -40,16 +49,17 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 200px;
+    gap: 40px;
 }
 
 .card-section{
-    height: 44vh;
+    height: 350px;
 }
 .container {
     width: 120px;
     text-wrap: wrap;
     text-align: center;
-    padding: 20px;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 13px;
@@ -60,14 +70,7 @@ h1{
     color: #F9FAF8;
     font-weight:900
 }
-.hero{
-    background-color: #1F2937;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 30vh;
-}
+
 .placeholder-img{
     width: 400px;
     height: 150px;
@@ -104,14 +107,13 @@ a {
     font-size: 36px;
     display: flex;
     justify-content: center;
-    padding: 40px;
+    padding: 20px;
 }
 .quotesection{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-grow: 1;
     flex-direction: column;
-    height: 25vh;
+    height: 300px;
     background-color: #E5E7EB;
     font-size: 36px;
     font-family: "Roboto", sans-serif;
@@ -119,6 +121,9 @@ a {
     font-style: italic;
 }
 
+.contentcontainer {
+    width: 100%;
+}
 .quoted{
     width: 600px;
     padding: 30px;
@@ -126,7 +131,7 @@ a {
 
 .buttonsection {
     display: flex;
-    height: 20vh;
+    height: 200px;
 }
 .buttonsectionbackground {
     background-color: #3882F6;
