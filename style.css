@@ -8,7 +8,43 @@ body {
     font-size: 18px;
     color: #e5e7eb;
 }
-
+img {
+    height: 100px;
+    width: 100px;
+    border-radius: 2px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+.container {
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+    border: 3px solid #3882F6;
+}
+h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight:900
+}
+.hero{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.placeholder-img{
+    width: 300px;
+    height: 150px;
+    background-color: grey;
+}
+p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
 a {
     text-decoration: none;
     color: #e5e7eb;
