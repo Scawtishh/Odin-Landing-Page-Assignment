@@ -2,20 +2,37 @@ body {
     font-family: "Roboto", sans-serif;
     font-size: 12px;
     margin: 0;
-    overflow: hidden;
+    height: 100vh;
+    width: 1100px;
+    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
-
+.left-links{
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 500;
+}
 .header{
-    background-color: #1F2937;
+    height: 110px;
     font-size: 18px;
     color: #e5e7eb;
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-direction: row;
+    background-color: #1F2937;
+}
+.new-start{
+    
+}
+.right-links{
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
 }
 .hero{
     background-color: #1F2937;
@@ -23,11 +40,18 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 300px;
+    height: 350px;
 }
 .hero-section{
-    width: 450px;
-    border: 1px solid black;
+    width: 400px;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.headerone {
+    font-size: 44px;
+    color: #F9FAF8;
+    font-weight:900
 }
 
 .header-section {
@@ -35,8 +59,25 @@ body {
     justify-content: center;
     align-items: center;
     height: 200px;
-    border: 1px solid red;
+    padding: 80px;
+}
 
+.title{
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+.placeholder-img{
+    width: 400px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    background-color: #6d747d
 }
 img {
     width: 120px;
@@ -65,21 +106,7 @@ img {
     font-size: 13px;
     color: #1F2937;
 }
-h1{
-    font-size: 48px;
-    color: #F9FAF8;
-    font-weight:900
-}
 
-.placeholder-img{
-    width: 400px;
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #e5e7eb;
-    background-color: grey;
-}
 p{
     font-size: 18px;
     color: #e5e7eb;
@@ -87,12 +114,12 @@ p{
 a {
     text-decoration: none;
     color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
 
-.logo{
-    font-size: 24px;
-    color: #F9FAF8;
-}
 
 .footer{
     display: flex;
@@ -101,14 +128,6 @@ a {
     color: #e5e7eb;
 }
 
-.title{
-    color: #1F2937;
-    font-weight: 900;
-    font-size: 36px;
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-}
 .quotesection{
     display: flex;
     justify-content: center;
