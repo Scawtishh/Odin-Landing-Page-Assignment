@@ -14,6 +14,15 @@ body {
     color: #ffffff;
     font-weight: 500;
 }
+.content1 .text1{
+    font-size: 20px;
+    color: #F9FAF8;
+    font-weight: 600;
+}
+.content1 .text2{
+    font-size: 14px;
+    color: #e5e7eb;
+}
 .header{
     height: 110px;
     font-size: 18px;
@@ -88,7 +97,7 @@ body {
     justify-content: center;
     align-items: center;
     color: #e5e7eb;
-    background-color: #6d747d
+    background-color: #80868f
 }
 img {
     width: 120px;
@@ -176,14 +185,40 @@ a {
 
 .buttonsection {
     display: flex;
-    height: 200px;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
 }
 .buttonsectionbackground {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45%;
+    width: 75%;
     background-color: #3882F6;
+    border-radius: 10px;
 }
-.signupbutton {
+.buttoncontext {
+    width: 75%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.signupbutton, .signupbutton2 {
     color: #ffffff;
     background-color: #3882F6;
+    padding: 6px 11px 6px 11px;
+    width: 120px;
+    border-radius: 7px;
+    border: 2px solid white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.signupbutton2 {
+    margin-top: 10px;
+    border: none;
 }
 
 .roboto-thin {
