@@ -30,7 +30,7 @@ body {
     background-color: #1F2937;
     display: flex;
     margin: 0 auto;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 100%;
 }
@@ -38,10 +38,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 73%;
+    padding: 10px;
 }
-.left-links
+
 .right-links{
-    width: auto;
+  display: flex;
+  gap: 15px;
 }
 .hero{
     background-color: #1F2937;
