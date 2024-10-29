@@ -64,8 +64,8 @@ body {
 }
 .hero-section{
     width: 400px;
-    color: #e5e7eb;
-    font-size: 18px;
+    color: #e9ebee;
+    font-size: 17px;
 }
 
 .headerone {
@@ -115,9 +115,6 @@ img {
     margin-bottom: 60px;
 }
 
-.card-section{
-
-}
 .container {
     width: 120px;
     text-wrap: wrap;
